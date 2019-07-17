@@ -16,8 +16,12 @@ app.set('views', './views');
 app.use(express.json()) // for parsing routerlication/json
 app.use(express.urlencoded({ extended: true })) // for parsing routerlication/x-www-form-urlencoded
 
+app.use(express.static('public'));
 app.use('/users',userRouter);
 
+app.get('/styles/custom.css', function  (req, res) {
+	res.send('acb');
+});
 
 
 app.listen(port, function  () {
