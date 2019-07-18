@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser')
 var userRouter = require('./routes/user.route');
+var authRouter = require('./routes/auth.route');
 var app = express();
 
 var port = 3000;
@@ -18,11 +19,8 @@ app.use(express.urlencoded({ extended: true })) // for parsing routerlication/x-
 
 app.use(express.static('public'));
 app.use('/users',userRouter);
-
-app.get('/styles/custom.css', function  (req, res) {
-	res.send('acb');
-});
-
+app.use('/users/rm',userRouter);
+app.use('/auth', authRouter);
 
 app.listen(port, function  () {
 	

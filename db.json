@@ -1,49 +1,16 @@
 {
   "users": [
     {
-      "name": "Phu Tieu",
-      "id": "aKaJQI6_d"
-    },
-    {
-      "name": "Phu Dai",
-      "id": "KzFmLHGUN"
-    },
-    {
-      "name": "Phu Dai",
-      "id": "m738bTGWC"
-    },
-    {
-      "name": "Phu Phu",
-      "id": "v63zdTUhb"
-    },
-    {
-      "name": "Phu Hai",
-      "id": "G76_zO9P2"
-    },
-    {
-      "name": "Phu",
-      "phone": "Hao",
-      "id": "EPAuZlW3t"
-    },
-    {
       "name": "Phu Di",
       "phone": "01365421",
+      "email": "Phu Di",
+      "password": "123456",
       "id": "601Ux2MP3"
     },
     {
-      "name": "Hai",
-      "phone": "1230231564",
-      "id": "iDT8Dm4OU"
-    },
-    {
-      "name": "",
-      "phone": "",
-      "id": "Dhj9yGk1x"
-    },
-    {
-      "name": "Tinh Ha",
-      "phone": "124134",
-      "id": "TEp-m7ruS"
+      "name": "Phu Tieu",
+      "phone": "023154",
+      "id": "xdg-h4yL1"
     }
   ]
 }

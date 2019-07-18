@@ -48,7 +48,9 @@ module.exports.postCreate = function  (req, res) {
 };
 
 module.exports.removeDb = function (req, res) {
-	//var id = req.params.id;
-	//var user = db.get('users').remove(req.body).write();
-	rres.redirect('/users');
+	var id = req.params.id;
+	var user = db.get('users').find({id: id}).value();
+	db.unset('user.name').write();
+	console.log('user');
+	res.redirect('/users');
 };
